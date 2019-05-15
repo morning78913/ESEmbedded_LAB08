@@ -41,9 +41,6 @@ void reset_handler(void)
 
 	main();
 
-	//Blink LED forever
-	blink(LED_BLUE);
-
 	while(1)
 		;
 }
